@@ -1,0 +1,105 @@
+.fruits {
+    background-color: rgb(6, 94, 170);
+    color: #ea0707;
+    border: 1px dotted #2e0101;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.cars {
+    background-color: rgb(170, 6, 6);
+    color: #ea0707;
+    border: 1px dotted #2e0101;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.Fruits {
+    background-color: rgb(6, 94, 170);
+    color: #ea0707;
+    border: 1px dotted #2e0101;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#computers {
+    background-color: rgb(6, 94, 170);
+    color: #ea0707;
+    border: 1px dotted #2e0101;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+body {
+    background-color: white;
+    color: #ea0707;
+    
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.card {
+    background-color:rgb(197, 235, 235);
+    color: #382020;
+    border: 1px dotted #2e0101;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    width: 200px;
+    height: 100px;
+    border-radius: 12px;
+    margin: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}   
+.card h2 {
+    color: #050000;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+.card p {
+    color: #180000;
+    font-size: 1em;
+    margin-top: 5px;
+    
+}
+.card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+.navbar {
+    border: 1px solid #050000;
+    max-width: 1100px;
+    margin: 10px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: aquamarine;
+}
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ea0707;
+}
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}   
